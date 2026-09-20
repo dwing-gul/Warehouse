@@ -9,8 +9,6 @@ Unreal Engine과 C++를 기반으로 제작하는 멀티플레이 전투 시스�
 - Unreal Engine
 - C++
 - Gameplay Ability System (GAS)
-- Git / GitHub
-- Visual Studio 2022
 
 ## Main Goals
 
@@ -23,33 +21,6 @@ Unreal Engine과 C++를 기반으로 제작하는 멀티플레이 전투 시스�
 - Cost / Cooldown 처리
 - 캐릭터 상태 및 행동 제한
 - 멀티플레이 환경에서의 동기화 처리
-
-## Planned Structure
-
-```text
-Character
- ├─ Character Base
- └─ Character State
-
-Combat
- ├─ Attack
- ├─ Hit Detection
- ├─ Damage
- └─ Hit Reaction
-
-Ability
- ├─ Gameplay Ability
- ├─ Gameplay Effect
- ├─ Gameplay Tag
- ├─ Cost
- └─ Cooldown
-
-Network
- ├─ Server Authority
- ├─ RPC
- ├─ Replication
- └─ Prediction
-```
 
 ## Purpose
 
