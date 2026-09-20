@@ -1,0 +1,17 @@
+# Unreal generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# IDE
+.vs/
+.idea/
+
+# Visual Studio
+*.sln
+*.VC.db
+*.VC.opendb
+
+# Unreal assets - LFS 없이 소스만 관리할 경우
+Content/
